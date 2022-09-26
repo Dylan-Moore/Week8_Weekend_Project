@@ -93,7 +93,7 @@ export const GoogleButton = (props:buttonProps) => {
     }
     else{
         return(
-            <Button sx={signinStyles.googleButton} onClick={signIn}>Sign in With Google</Button>
+            <Button variant='contained' sx={[{height: '3.5em'}]} onClick={signIn}>Sign in With Google</Button>
         )}
     }
 
