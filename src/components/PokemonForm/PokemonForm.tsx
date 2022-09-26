@@ -106,7 +106,11 @@ export const PokemonForm = (props:PokemonFormProps) => {
                     <label htmlFor="name">Pokemon Name</label>
                     <Input {...register('name')} name="name" placeholder="name" />
                 </div>
-                {/* <div>
+                <div>
+                    <label htmlFor="game_id">Pokemon Id</label>
+                    <Input {...register('game_id')} name="game_id" placeholder="game_id" />
+                </div>
+                <div>
                     <label htmlFor="type">Pokemon type</label>
                     <Input {...register('type')} name="type" placeholder="type" />
                 </div>
@@ -121,7 +125,7 @@ export const PokemonForm = (props:PokemonFormProps) => {
                 <div>
                     <label htmlFor="moveset">Pokemon moveset</label>
                     <Input {...register('moveset')} name="moveset" placeholder="moveset" />
-                </div> */}
+                </div>
                 <Button type='submit'>Submit</Button>
             </form>
         </div>
